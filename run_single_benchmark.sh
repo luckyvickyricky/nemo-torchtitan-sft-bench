@@ -16,7 +16,7 @@ mkdir -p logs results
 
 # 기본 설정
 MODEL="${MODEL:-Qwen/Qwen3-4B}"
-SEQ_LENGTH="${SEQ_LENGTH:-512}"
+SEQ_LENGTH="${SEQ_LENGTH:-1024}"
 USE_QLORA="${USE_QLORA:-false}"
 BATCH_SIZE="${BATCH_SIZE:-4}"
 GRAD_ACCUM="${GRAD_ACCUM:-4}"
