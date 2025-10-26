@@ -1,0 +1,11 @@
+{
+  "experiment_name": "hf_lora_Qwen3-4B_seq2048",
+  "total_steps": 200,
+  "total_consumed_tokens": 293164,
+  "total_time_sec": 2104.78,
+  "avg_tps_consumed": 139.28,
+  "avg_step_time_sec": 10.5239,
+  "std_step_time_sec": 0.0721,
+  "min_step_time_sec": 10.4222,
+  "max_step_time_sec": 11.3753
+}

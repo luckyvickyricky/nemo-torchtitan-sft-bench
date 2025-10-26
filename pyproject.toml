@@ -1,0 +1,28 @@
+[project]
+name = "hf-peft-sft-bench"
+version = "0.1.0"
+description = "RTX 5090 LoRA/QLoRA Benchmark for Qwen3 models using HuggingFace Transformers + PEFT"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "transformers",
+    "peft",
+    "accelerate",
+    "datasets",
+    "wandb",
+    "tqdm",
+    "pandas",
+    "numpy",
+    "packaging",
+    "psutil",
+    "gpustat",
+    "nvidia-ml-py",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
